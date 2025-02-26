@@ -1,23 +1,17 @@
-Medidor de Idade
+# Primeiro projeto - Desenvolvimento Mobile
 
-Este é um projeto simples de um medidor de idade utilizando HTML, CSS e JavaScript. O usuário insere sua data de nascimento e o sistema calcula e exibe sua idade.
+Projeto basico para estudos de web e mobile turma ADS3 UNORTE.
 
-Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
-HTML
+- HTML
+- CSS
+- JavaScript
+- (Outras tecnologias que você está utilizando no projeto)
 
-CSS
+## Instalação
 
-JavaScript
+1. Clone este repositório para sua máquina local:
 
-Como Usar
-
-Abra o arquivo index.html em um navegador.
-
-Insira sua data de nascimento no campo indicado.
-
-Clique no botão "Calcular Idade".
-
-Sua idade será exibida na tela
-
-git clone https://github.com/imFigueiredo/ads3_projeto1.git
+   ```bash
+   git clone https://github.com/imFigueiredo/ads3_projeto1.git
