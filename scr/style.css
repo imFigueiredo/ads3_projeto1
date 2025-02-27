@@ -97,5 +97,12 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #19641d;
+}
+
+
+.diaNascimento {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }

@@ -13,7 +13,7 @@ function calcularIdade() {
 
     let idade = anoAtual - anoNascimento;
 
-    if (mesAtual < mesNascimento || (mesAtual === mesNascimento && diaAtual < 1)) {
+    if (mesAtual < mesNascimento || (mesAtual === mesNascimento && diaAtual < parseInt(document.getElementById("diaNascimento").value))) {
         idade--;
     }
 

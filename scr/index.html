@@ -9,10 +9,11 @@
 <body>
     <div class="container">
         <h2>Calculadora de Idade</h2>
-        <p>Digite o seu ano e mês de nascimento:</p>
-        <input type="number" id="anoNascimento" placeholder="Ano" min="1900" max="2025">
+        <p>Digite sua data de nascimento:</p>
+        <input type="number" id="diaNascimento" placeholder="Dia" min="1" max="31">
         <input type="number" id="mesNascimento" placeholder="Mês" min="1" max="12">
-        <button onclick="calcularIdade()">
+        <input type="number" id="anoNascimento" placeholder="Ano" min="1900" max="2025">
+        <button type="button" onclick="calcularIdade()">
             Calcular Idade
         </button>
         <p id="resultado"></p>
